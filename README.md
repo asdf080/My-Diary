@@ -27,5 +27,5 @@ https://mydiary-9ed9a.web.app
 
 ### ✔ 미리보기
 
-![preview](./src/components/preview1.png)
 ![preview](./src/components/preview2.png)
+![preview](./src/components/preview1.png)
