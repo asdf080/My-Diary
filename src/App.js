@@ -4,6 +4,7 @@ import Login from "./pages/login/Login";
 import Signup from "./pages/signup/Signup";
 import Nav from "./components/Nav";
 import { useAuthContext } from "./hooks/useAuthContext";
+import loadGif from "./components/load.gif";
 
 function App() {
   const { isAuthReady, user } = useAuthContext();
@@ -30,7 +31,11 @@ function App() {
           </Routes>
         </BrowserRouter>
       ) : (
-        "loading..."
+        <img
+          style={{ position: "absolute", top: "30%", left: "45%" }}
+          src={loadGif}
+          alt="Loading..."
+        />
       )}
     </div>
   );

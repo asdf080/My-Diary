@@ -46,7 +46,9 @@ export default function Login() {
             로그인
           </button>
         )}
-        {isPending && <strong>로그인 진행중입니다...</strong>}
+        {isPending && (
+          <strong className={styles.logload}>로그인 진행중입니다...</strong>
+        )}
         {error && <strong>{error}</strong>}
       </fieldset>
     </form>
