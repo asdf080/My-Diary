@@ -9,7 +9,7 @@ export default function Nav() {
   const { user } = useAuthContext();
   return (
     <nav className={styles.nav}>
-      <h1 className={styles.tit}>두근 두근 비밀 일기</h1>
+      <h1 className={styles.tit}>두근두근 비밀 일기</h1>
       <ul className={styles.list_nav}>
         {!user && (
           <>
@@ -23,7 +23,9 @@ export default function Nav() {
         )}
         {user && (
           <li>
-            <strong>환영합니다. {user.displayName} 님!</strong>
+            <strong className={styles.welcome}>
+              환영합니다. {user.displayName} 님!
+            </strong>
             <button type="button" onClick={logout}>
               로그아웃
             </button>

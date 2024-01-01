@@ -8,7 +8,7 @@
 
 .side_menu form {
   padding: 20px;
-  background-color: teal;
+  background-color: #8276f4;
   border-radius: 10px;
 }
 
@@ -41,6 +41,7 @@
   height: 200px;
   width: 100%;
   border-radius: 5px;
+  padding: 10px;
 }
 
 .side_menu button {
@@ -63,7 +64,7 @@
   box-shadow: 3px 3px 5px rgba(50, 50, 50, 0.1);
   padding: 30px;
   position: relative;
-  border-left: 4px solid teal;
+  border-left: 4px solid #8276f4;
 }
 
 .content_list li + li {
@@ -82,7 +83,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  background-color: teal;
+  background-color: #8276f4;
   border: none;
   color: #fff;
   padding: 12px 8px;

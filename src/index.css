@@ -1,8 +1,20 @@
+/* 업데이트시 npm run build
+* firebase deploy
+ */
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
 
 /* base styles */
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Pretendard-Regular", sans-serif;
 }
 
 ul {
